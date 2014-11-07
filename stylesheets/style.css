@@ -54,12 +54,13 @@ body {
 
 
 #skills-divs-list  {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   text-align: center;
   z-index: 4;
   padding: 0px;
   top: 100px;
+  margin-top:0px;
 }
 
 #skills-divs-list div {
