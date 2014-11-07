@@ -1,219 +1,17 @@
-@media screen and ( max-width: 600px ){
-  .project {
-    width: 100%;
-  }
-}
 
-@media screen and ( max-width: 600px ) {
-  h1 {
-    color: red;
-
-  }
-
-}
 
 @font-face {
   font-family: 'Josefin Slab', serif;
   src: url("assets/JosefinSlab-Bold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: Ultimate-Midnight;
-  src: url("ultimateMIDNIGHT.ttf") format("truetype");
-}
-
 body {
 }
 
-.container {
-}
 
-.navbar {
-  background-color: white;
-  border-bottom: none;
-  padding-left: 10%;
+#first_section {
+  /*z-index: -9;*/
 
-}
-
-.navbar-default .navbar-nav>li>a {
-  font-size: 160%;
-  color: black;
-  font-family: 'Josefin Slab', serif;
-}
-
-.navbar-default .navbar-nav>li {
-  padding-left: 50px;
-}
-
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  font-size: 180%;
-  color: #E60000;
-}
-
-.navbar-default .navbar-nav ul li {
-  text-align: center;
-  display: inline;
-  width: 20%;
-  float: left;
-
-}
-
-#typed-cursor{
-    opacity: 0;
-}
-
-.welcome #dictionary {
-  padding-top: 12%;
-  padding-bottom: 10%;
-  font-family: 'Josefin Slab', serif;
-  height: 530px;
-}
-
-#dictionary h1 {
-  font-size: 80px;
-  margin-bottom: 0;
-}
-
-#dictionary h3 {
-  display: inline block;
-  font-size: 28px;
-  font-style: italic;
-  padding: 0;
-}
-#dictionary ol {
-  padding-top: 20px;
-}
-#dictionary ol li {
-  font-size: 25px;
-  margin-top: 6px;
-}
-
-.aboutMe {
-  margin: 0 auto;
-}
-
-.aboutPhoto img{
-  margin-top: 90px;
-  height: 450px;
-  width: auto;
-}
-
-.aboutInfo {
-  border: 1px solid black;
-  margin-top: 60px;
-  font-size: 20px;
-  font-family: 'Josefin Slab', serif;
-  padding: 20px;
-  color: white;
-}
-
-
-
-.skills {
-  margin:0 auto;
-  margin-left: 20px;
-  padding-top: 50px;
-}
-.skillsInfo {
-  padding: 0 2px 0 2px;
-  height: 500px;
-  text-align: left;
-}
-
-.skillsInfo h1 {
-  text-align: center;
-  font-size: 60px;
-  font-family: 'Josefin Slab', serif;
-  padding-bottom: 20px;
-}
-.skillsInfo h2{
-  margin-top: 40px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-.skillsInfo span {
-  /*color: red;*/
-}
-
-.skillsInfo a {
-  /*color: red;*/
-}
-
-.skillsInfo p {
-  padding: 0 8px 0 8px;
-  font-size: 20px;
-  /*font-family: "Courier New", Courier, monospace;*/
-  line-height: 22px;
-}
-
-.subSkillsDiv{
-  margin: 0;
-  height: 250px;
-}
-.subSkillsDiv h2{
-  margin-top: 40px;
-}
-
-.thumbnail {
-  height: 450px;
-  margin-top: 60px;
-}
-
-.thumbnail img{
-  height: 300px;
-}
-
-.thumbnail .caption h4{
-  text-align: center
-}
-
-.thumbnail .caption p{
-  text-align: left;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  line-height: 16px;
-}
-
-.contactMe {
-  padding-top: 50px;
-  padding-bottom: 10%;
-}
-
-.contactMe, .skills, .test h1{
-  padding-top: 50px;
-  text-decoration: none;
-  text-align: center;
-}
-
-#contactInfo{
-  padding-top: 50px;
-  font-family: 'Josefin Slab', serif;
-  font-size: 28px;
-}
-
-#contactInfo span {
-  font-size: 20px;
-}
-
-#contactInfo img{
-  height: 60px;
-  width: 60px;
-  margin: 20px;
-}
-
-#contactInfo img:hover {
-  border: 3px solid #E60000;
-  border-radius: 300px;
-}
-
-#sayHello h1{
-  padding-top: 100px;
-  font-family: 'Josefin Slab', serif;
-  font-size: 80px;
-}
-
-.row {
-  height: 600px;
 }
 
 .intro-text {
@@ -223,6 +21,7 @@ body {
   /*padding-left: 10%;*/
   /*padding-bottom: 10%;*/
   font-size: 80px;
+  margin: 0px;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -231,55 +30,28 @@ body {
   text-align: center;
   font-family: 'Josefin Slab', serif;
 
-
 }
 
 .project {
-  height: 260px;
+  height: 280px;
+  width: 440px;
   border: 5px solid white;
 
-  /*transition: 1s ease;*/
-
-  /*width: 260;*/
-  /*border-radius: 40%;*/
-  /*width: 200px;*/
-  /*text-align: center;*/
-  /*display: inline-block;*/
-/*}*/
-
-/*.project:hover {
-  height: 300px;
-*/
-
 }
 
-.project:hover {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  -ms-transform-origin: center bottom;
-  transform-origin: center bottom;
+
+#project-list {
+  margin: 0 auto;
+  padding: 31px;
 }
 
-#project-nav {
-  width: 100%;
-  float: left;
-  margin: 0 0 3em 0;
-  padding: 0px;
-  list-style: none;
-
-
-}
-
-#project-nav li {
+#project-list li {
+  display: inline-block;
   text-align: center;
-  margin: 30px;
-
+  /*margin: 30px;*/
+  list-style:  none;
 }
 
-#project-nav a {=
-
-}
 
 #skills-divs-list  {
   position: absolute;
@@ -368,46 +140,22 @@ body {
 
 }
 
-
-.grow {
-  /*display: inline-block;*/
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: transform;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.grow:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.mask {
-  margin-top: 20px;
-  z-index: 3;
-}
-
-.second-section {
+#second-section {
   position: relative;
   width: 100%;
-  z-index: -4;
-  background-image: url("images/second_container_background.jpg");
+  height: 100%;
+  /*z-index: 8;*/
 
 }
 
 #second-text {
+  z-index: 8;
   position: absolute;
   width: 100%;
   text-align: center;
-  z-index: 1;
+  margin: 0px;
   font-family: 'Josefin Slab', serif;
-  color: white;
+  color: black;
   font-size: 80px;
 
 
