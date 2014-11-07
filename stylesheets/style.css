@@ -1,26 +1,4 @@
 
-@font-face {
-  font-family: Ultimate-Midnight;
-  src: url("ultimateMIDNIGHT.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Josefin Slab', serif;
-  src: url("/../JosefinSlab-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Tifax;
-  src: url("images/../tifax.ttf") format("truetype");
-
-}
-@import url("http://fonts.googleapis.com/css?family=Josefin+Slab:100");
-
-body {
-}
-
-
-
 .intro-text {
   text-shadow: 4px 4px black;
   color: white;
@@ -60,6 +38,7 @@ body {
   color: white;
   /*margin: 0px;*/
   font-family: 'Josefin Slab';
+  text-shadow: 4px 4px black;
 }
 
 #project-list {
@@ -81,44 +60,80 @@ body {
 
 
 #skills-divs-list  {
-  /*position: absolute;*/
-  width: 100%;
+  /*width: 100%;*/
   text-align: center;
-  z-index: 4;
+  /*z-index: 4;*/
   padding: 0px;
-  top: 100px;
-  margin-top:0px;
+  margin: 0px;
+  /*top: 100px;*/
+  /*margin-top:0px;*/
+  /*padding: 0px;*/
+}
+
+#skills-divs-list li {
+  display: inline-block;
+}
+#skills-divs-list ul {
+  padding: 0px;
 }
 
 #skills-divs-list div {
+  border: 5px solid black;
+  margin: 10px;
+  text-align: center;
+  /*z-index: 5;*/
+  /*display: inline-block;*/
+  /*list-style: none;*/
+  /*list-decoration:none;*/
+  height: 300px;
+  width: 300px;
+  background-color: #a10100;
+  border-radius: 10px;
+  color: white;
 
+}
+
+#skills-divs-list h1,h2 {
+    font-family:'Josefin Slab', serif;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+#skills-divs-list p {
+    font-family:'Josefin Slab', serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/*#skills-divs-list div {
   border: 10px solid black;
   margin: 50px;
   text-align: center;
   z-index: 5;
   display: inline-block;
   list-style: none;
-  list-decoration:none;
+  /*list-decoration:none;
   height: 300px;
   width: 300px;
   background-color: #B82E00;
   border-radius: 10px;
-
 }
 
-#skills-divs-list div ul {
+/*#skills-divs-list {
+  display: inline-block;
+}
+
+/*#skills-divs-list div > ul {
   font-family:'Josefin Slab', serif;
   list-style: none;
   text-align: center;
   padding: 0px;
   color: white;
   font-size: 17px;
-}
+}*/
 
-#skills-divs-list div h1,h2 {
-    font-family:'Josefin Slab', serif;
-    text-align: center;
-}
 
 #github, #linkedin {
   height: 40px;
