@@ -1,5 +1,6 @@
 body {
   margin: 1px;
+  background-color: #d0cecd;
 }
 
 /*#nav {
@@ -122,6 +123,27 @@ body {
     text-align: center;
     color: white;
     font-style: italic;
+}
+
+#contact-section {
+  /*background-color: */
+  display:block;
+  height:300px;
+  width:450px;
+  margin:0 auto;
+}
+
+#contact-section h1 {
+  font-size:70px;
+  margin-left:30px;
+  margin-bottom:20px;
+
+}
+
+#contact-section p {
+  margin:0px;
+  font-family: 'Inconsolata';
+  font-size: 22px;
 }
 
 
