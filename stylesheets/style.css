@@ -1,6 +1,7 @@
 body {
   margin: 1px;
-  background-color: #d0cecd;
+  background-color: white;
+  font-family: 'Josefin Sans';
 }
 
 figure {
@@ -36,9 +37,24 @@ figcaption p {
   top: -40px;
   width: 289px;
   vertical-align: middle;
-  font-family: 'Josefin Slab';
+  
 }
 
+#project-list > li {
+  padding: 0px 400px 0px 400px;
+
+}
+
+#project-list > li > h1 > a {
+  text-decoration: none;
+  color: black;
+
+}
+
+#project-list > li > h1:hover {
+  /*color: white;*/
+  cursor: pointer;
+}
 
 #project-list li:hover figcaption {
   opacity: 1;
@@ -60,24 +76,25 @@ figcaption p {
   color: white;
 }*/
 .intro-text {
-  text-shadow: 4px 4px black;
-  color: white;
+  /*text-shadow: 4px 4px black;*/
+  color: black;
   text-align: center;
   padding-top: 40px;
+font-family: 'Josefin Sans';
   /*padding-left: 10%;*/
   /*padding-bottom: 10%;*/
   font-size: 80px;
   margin: 0px;
-  font-family: 'Josefin Slab', serif;
+  
 
 }
 
 .sub-intro-text {
-  color: white;
+  color: black;
   text-align: center;
-  font-family: 'Inconsolata';
-  text-shadow: 4px 4px black;
-  text-decoration: underline;
+font-family: 'Josefin Sans';  
+  /*text-shadow: 4px 4px black;*/
+  text-decoration: none;
 }
 
 .project {
@@ -93,11 +110,11 @@ figcaption p {
 }
 
 #project-list h1 {
-  color: white;
+  color: black;
   /*margin: 0px;*/
   /*font-style: italic;*/
-  font-family: 'Josefin Slab';
-  text-shadow: 4px 4px black;
+  
+  /*text-shadow: 4px 4px black;*/
 }
 
 #project-list {
@@ -118,8 +135,8 @@ figcaption p {
 
 
 #skills-divs-list  {
-   -webkit-filter: grayscale(41%);
-  filter: grayscale(41%);
+   /*-webkit-filter: grayscale(41%);*/
+  /*filter: grayscale(41%);*/
   /*width: 100%;*/
   text-align: center;
   /*z-index: 4;*/
@@ -130,10 +147,7 @@ figcaption p {
   /*padding: 0px;*/
 }
 
-#skills-divs-list:hover {
--webkit-filter:none;
-  filter: grayscale(10%);
-}
+
 #skills-divs-list li {
   display: inline-block;
 }
@@ -142,12 +156,12 @@ figcaption p {
 }
 
 #skills-divs-list div {
-  border: 5px solid black;
+  /*border: 5px solid black;*/
   margin: 10px;
   text-align: center;
-  height: 300px;
+  /*height: 300px;*/
   width: 300px;
-  background-color: #a10100;
+  /*background-color: #a10100;*/
   border-radius: 10px;
   color: white;
   margin-bottom: 30px;
@@ -155,17 +169,18 @@ figcaption p {
 }
 
 #skills-divs-list h1,h2 {
-    font-family:'Josefin Slab', serif;
+  font-family: 'Josefin Sans';
     text-align: center;
-    color: white;
-    text-decoration: underline;
+    color: black;
+    /*text-decoration: underline;*/
 }
 
 #skills-divs-list p {
-    font-family:'Josefin Slab', serif;
+  font-family: 'Josefin Sans';
     text-align: center;
-    color: white;
-    font-style: italic;
+    color: black;
+    margin: 5px;
+    /*font-style: italic;*/
 }
 
 #contact-section {
@@ -177,17 +192,19 @@ figcaption p {
 }
 
 #contact-section h1 {
-  font-size:70px;
-  margin-left:30px;
-  margin-bottom:20px;
+  font-size:50px;
+  text-align: center;
+
+
 
 }
 
 #contact-section p {
   margin:0px;
-  font-family: 'Inconsolata';
+  font-family: 'Josefin Sans';
   font-size: 22px;
 }
+
 
 
 #github-icon, #resume-icon {
@@ -196,17 +213,17 @@ figcaption p {
   display: inline-block;
 }
 
- #resume-icon:hover {
+/* #resume-icon:hover {
   height: 70px;
   width: 70px;
   transition: .3s;
 }
-
-#github-icon:hover {
+*/
+/*#github-icon:hover {
   height: 70px;
   width: 70px;
   transition: .3s;
-}
+}*/
 
 #linkedin-icon {
   height: 57px;
@@ -214,12 +231,12 @@ figcaption p {
   display: inline-block;
   margin-bottom: 3px;
 }
-
+/*
 #linkedin-icon:hover {
   height: 67px;
   width: 67px;
   transition: .3s;
-}
+}*/
 
 #email-icon {
   height: 58px;
@@ -228,11 +245,11 @@ figcaption p {
   padding-left: 7px;
 }
 
-#email-icon:hover {
+/*#email-icon:hover {
   height: 68px;
   width: 68px;
   transition: .3s;
-}
+}*/
 
 
 
@@ -278,7 +295,7 @@ figcaption p {
   width: 100%;
   text-align: center;
   margin: 0px;
-  font-family: 'Josefin Slab', serif;
+  
   color: black;
   font-size: 80px;
 
@@ -286,12 +303,11 @@ figcaption p {
 }
 
 @media only screen and (max-width: 1435px) {
-  #contact-header {
-    font-size: 60px;
 
+  #project-list > li {
+  padding: 0px 100px 0px 100px;
 
-  }
-
+}
   /*.project {
     height: 280px;
     width: 440px;
